@@ -19,7 +19,7 @@ export default function GetOwnPortfolio() {
           </div>
           <div className="ml-auto mt-3 flex  items-center justify-center">
             <button className={`flex items-center ${styles.Button}` }>
-           <a href="/Github"> GitHub</a>
+           <a href={"/github"}> GitHub</a>
             </button>
           </div>
         </div>

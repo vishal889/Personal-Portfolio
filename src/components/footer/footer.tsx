@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="flex items-center justify-center">
             <div className="relative">
               <img
-                src="/vishal.png"
+                src={`/Vishal.png`}
                 alt=""
                 className="relative top-1 w-[50px] rounded-full"
               />
@@ -44,17 +44,17 @@ export default function Footer() {
             <i
               className={`relative rounded-xl bg-black p-2 hover:-translate-y-1 hover:transform hover:bg-blue-900`}
             >
-              <a href={`${Router.ExternalRouter.Discord}`}><FaDiscord /></a>
+              <a href={`/discord`}><FaDiscord /></a>
             </i>
 
             <i className="rounded-xl bg-black p-2 hover:-translate-y-1 hover:transform hover:bg-gray-800">
-              <a href={`${Router.ExternalRouter.Github}`}><FaGithub /></a>
+              <a href={`/github`}><FaGithub /></a>
             </i>
             <i className="rounded-xl bg-black p-2 hover:-translate-y-1 hover:transform hover:bg-pink-500">
-              <a href={`${Router.ExternalRouter.Instgram}`}><FaInstagram /></a>
+              <a href={`/instagram`}><FaInstagram /></a>
             </i>
             <i className="rounded-xl bg-black p-2 hover:-translate-y-1 hover:transform hover:bg-blue-500">
-             <a href={`${Router.ExternalRouter.Twitter}`}><FaTwitter /></a>
+             <a href={`/twitter`}><FaTwitter /></a>
             </i>
           </div>
 

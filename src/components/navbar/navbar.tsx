@@ -1,3 +1,4 @@
+import Router from "@/helpers/routers";
 import Head from "next/head";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -39,7 +40,7 @@ export default function Navbar() {
             <div className="flex items-center justify-between py-3 md:block ">
               <a href="#">
                 <img
-                  src="/Vishal.png"
+                  src={`/Vishal.png`}
                   className="left-0 rounded-full w-[40px] md:w-[50px]"
                   alt="Vishal"
                 />
